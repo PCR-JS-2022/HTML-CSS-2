@@ -1,0 +1,182 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: Roboto, sans-serif;
+    font-size: 20px;
+}
+
+.title {
+    text-align: center;
+    background-color: #0088BB;
+    padding: 10px 0;
+    margin: 0;
+}
+
+.content {
+    display: grid;
+    grid-template-columns: 1fr 5fr;
+}
+
+.nav_wrapper {
+    padding: 40px 20px;
+    border-right: 1px solid #C4C4C4;
+}
+
+.navbar {
+    display: grid;
+    gap: 20px;
+    position: sticky;
+    top: 50px;
+}
+
+.navbar .navlink {
+    display: block;
+    color: black;
+    text-decoration: none;
+}
+
+.navbar .navlink:hover {
+    text-decoration: underline;
+}
+
+.navbar .navlink.active {
+    font-weight: bold;
+    border-left: 20px solid #0088BB;
+    padding-left: 10px;
+}
+
+.photos_block_wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 15px;
+}
+
+.content .photos_block {
+    background-color: #fcb1ba;
+    border-radius: 10px;
+}
+
+.subtitle {
+    text-align: center;
+    margin: 20px 0 30px;
+}
+
+.photos_cards {
+    display: grid;
+    gap: 20px;
+    padding: 20px 25px 30px;
+}
+
+.photo_card {
+    padding: 25px;
+    display: grid;
+    grid-template-areas: "photo info"
+                         "photo tags";
+    grid-template-columns: auto 1fr;
+    column-gap: 30px;
+    row-gap: 20px;
+    background-color: #6ab5d8;
+    border-radius: 10px;
+}
+
+.photo_card .photo_block {
+    width: 320px;
+    height: 240px;
+    border-radius: 10px;
+    grid-area: photo;
+}
+
+.photo_card .photo_block {
+    transition-duration: 500ms;
+}
+
+.photo_card .photo_block:hover {
+    transform: scale(1.1);
+    transition: all ease 500ms;
+    box-shadow: 0 0 20px 10px rgba(0, 144, 255, 0.5);
+}
+
+.photo_block .photo {
+    border-radius: 10px;
+}
+
+.photo_card .photo_info {
+    grid-area: info;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: grid;
+    gap: 10px;
+}
+
+.photo_info .date, .photo_info .location {
+    font-weight: bold;
+}
+
+.photo_info .description {
+    margin: 5px 0 0 0;
+    padding: 0 20px;
+    border-left: 2px solid #fcb1ba;
+}
+
+.photo_card .tags {
+    grid-area: tags;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    background-color: #e5e5e5;
+    padding: 20px 30px;
+    border-radius: 10px;
+}
+
+.tags .tag {
+    padding: 5px 10px;
+    border-radius: 15px;
+    background-color: slategrey;
+    text-align: center;
+    cursor: pointer;
+}
+
+.tag.red {
+    background-color: red;
+}
+
+.tag.green {
+    background-color: green;
+}
+
+.tag.blue {
+    background-color: blue;
+}
+
+.tag.orange {
+    background-color: orange;
+}
+
+.tag.pink {
+    background-color: pink;
+}
+
+.tag.white {
+    background-color: white;
+}
+
+.tag.yellow {
+    background-color: yellow;
+}
+
+.footer {
+    background-color: #0088BB;
+    padding: 20px 30px;
+}
+
+.footer p {
+    text-align: right;
+}
+
+.footer .name {
+    font-weight: bold;
+    text-decoration: underline;
+    cursor: pointer;
+}
