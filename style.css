@@ -1,0 +1,107 @@
+html {
+    height: 100%;
+}
+
+body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+}
+
+header {
+    background-color:#0088BB;
+    height: 6%;
+    border-bottom: 1px solid black;
+}
+
+main {
+    height: 88%;
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+footer {
+    background-color:#0088BB;
+    height: 6%;
+    border-top: 1px solid black;
+}
+
+.content {
+    width: 70%;
+    padding: 1%;
+}
+
+aside {
+    background-color:white;
+    width: 30%;
+    height: 100%;
+    outline: 1px solid black;
+}
+
+.title {
+    margin: 0;
+    padding: 7px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+h3 {
+    font-size: 1.4em;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+    margin-top: 20%;
+}
+
+li {
+    margin: 10%;
+    outline: 1px solid black;
+}
+
+article {
+    background: rgba(196, 196, 196, 0.3);
+    height: 100%;
+    outline: 1px solid black;
+}
+
+.card {
+    height: 38%;
+    border: 1px solid black;
+    margin: 2%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+.photo {
+    width: 200px;
+    border: 1px solid black;
+    margin: 20px;
+}
+
+.info {
+    width: 100%;
+    overflow: auto;
+    margin: 20px;
+}
+
+p {
+    margin-top: 0;
+}
+
+span {
+    margin: 2% 2% 0 0;
+    padding-left: 4px;
+    padding-right: 4px;
+    background-color: orange;
+    border-radius: 5px;
+}
+
+.tags {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
