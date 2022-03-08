@@ -1,0 +1,52 @@
+.header {
+    display: flex;
+    background-color: 0088BB;
+    padding: 10px;
+}
+
+.body {
+    min-height: 100%;
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    margin: 0px;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    background-color: 0088BB;
+}
+
+.pictures {
+    margin: 30px;
+    display: flex;
+    flex-direction: row;
+    gap: 20px 20px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.tags {
+    margin: 30px;
+    display: flex;
+    flex-direction: row;
+    gap: 20px 20px;
+    justify-content: start;
+    flex-wrap: wrap;
+}
+
+.tag {
+    background-color: darkgrey;
+    font-size: 25px;
+}
+
+.picture {
+    width: 320px;
+    height: 240px;
+}
+
+.container {
+    margin: 30px;
+    background-color: #f3f1f1;
+    padding: 30px;
+}
