@@ -61,14 +61,15 @@ li {
     outline: 1px solid black;
 }
 
-article {
+.wrapper {
     background: rgba(196, 196, 196, 0.3);
     height: 100%;
     outline: 1px solid black;
+    overflow: auto;
 }
 
 .card {
-    height: 38%;
+    height: 280px;
     border: 1px solid black;
     margin: 2%;
     display: flex;
@@ -77,15 +78,16 @@ article {
 }
 
 .photo {
-    width: 200px;
+    width: 320px;
+    height: 240px;
     border: 1px solid black;
-    margin: 20px;
+    margin: 19px;
 }
 
 .info {
     width: 100%;
     overflow: auto;
-    margin: 20px;
+    margin: 19px;
 }
 
 p {
