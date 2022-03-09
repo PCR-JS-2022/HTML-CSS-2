@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>html-css-2</title>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="../css/styles.css" />
+</head>
+
+<body>
+    <header>
+        <h1>Photo Gallery</h1>
+    </header>
+
+    <div class="content">
+        <nav class="left">
+            <ul class="menu">
+                <li class="item">
+                    <button onclick="change_text('Home')">Home</button>
+                </li>
+                <li class="item">
+                    <button onclick="change_text('About')">About</button>
+                </li>
+                <li class="item">
+                    <button onclick="change_text('Contact')">Contact</button>
+                </li>
+            </ul>
+        </nav>
+
+        <main class="right gallery">
+            <header>
+                <h1 id="main-header">Home</h1>
+            </header>
+
+            <div class="photo-card">
+                <figure class="left photo-preview">
+                    <img src="../assets/05a054ec6df65962c3816321bfecc5c8.jpg" />
+                </figure>
+
+                <article class="right">
+                    <section>
+                        <h2>Date:</h2>
+                        <time datetime="2000-01-01 12:00">01/01/2000</time>
+                    </section>
+
+                    <section>
+                        <h2>Place:</h2>
+                        <p>Mexico</p>
+                    </section>
+
+                    <section>
+                        <h2>Decription:</h2>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Erat id id rhoncus, vitae, etiam blandit. Aliquam morbi faucibus enim nunc. Accumsan, fringilla tincidunt nibh eget arcu odio ut tortor.
+                        </p>
+                    </section>
+
+                    <div class="tags">
+                        <div class="tag">Лето</div>
+                        <div class="tag">Отпуск</div>
+                        <div class="tag">Котики</div>
+                        <div class="tag">Выпускной</div>
+                        <div class="tag">Свадьба</div>
+                        <div class="tag">Семья</div>
+                        <div class="tag">На печать</div>
+                        <div class="tag">Мемы</div>
+                        <div class="tag">Свадьба</div>
+                        <div class="tag">Семья</div>
+                        <div class="tag">На печать</div>
+                        <div class="tag">Мемы</div>
+                    </div>
+                </article>
+            </div>
+
+            <div class="photo-card">
+                <figure class="left photo-preview">
+                    <img src="../assets/20210923_gaf_u39_666-pic_32ratio_900x600-900x600-87285.jpg" />
+                </figure>
+
+                <article class="right">
+                    <section>
+                        <h2>Date:</h2>
+                        <time datetime="2000-01-01 12:00">01/01/2000</time>
+                    </section>
+
+                    <section>
+                        <h2>Place:</h2>
+                        <p>Mexico</p>
+                    </section>
+
+                    <section>
+                        <h2>Decription:</h2>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Erat id id rhoncus, vitae, etiam blandit. Aliquam morbi faucibus enim nunc. Accumsan, fringilla tincidunt nibh eget arcu odio ut tortor. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                            Erat id id rhoncus, vitae, etiam blandit.
+                        </p>
+                    </section>
+
+                    <div class="tags">
+                        <div class="tag">Лето</div>
+                        <div class="tag">Отпуск</div>
+                        <div class="tag">Котики</div>
+                        <div class="tag">Выпускной</div>
+                        <div class="tag">Свадьба</div>
+                        <div class="tag">Семья</div>
+                        <div class="tag">На печать</div>
+                        <div class="tag">Мемы</div>
+                        <div class="tag">Свадьба</div>
+                        <div class="tag">Семья</div>
+                        <div class="tag">На печать</div>
+                        <div class="tag">Мемы</div>
+                    </div>
+                </article>
+            </div>
+
+            <div class="photo-card">
+                <figure class="left photo-preview">
+                    <img src="../assets/korella.jpg" />
+                </figure>
+
+                <article class="right">
+                    <section>
+                        <h2>Date:</h2>
+                        <time datetime="2000-01-01 12:00">01/01/2000</time>
+                    </section>
+
+                    <section>
+                        <h2>Place:</h2>
+                        <p>Mexico</p>
+                    </section>
+
+                    <section>
+                        <h2>Decription:</h2>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Erat id id rhoncus, vitae, etiam blandit. Aliquam morbi faucibus enim nunc. Accumsan, fringilla tincidunt nibh eget arcu odio ut tortor.
+                        </p>
+                    </section>
+
+                    <div class="tags">
+                        <div class="tag">Лето</div>
+                        <div class="tag">Отпуск</div>
+                        <div class="tag">Котики</div>
+                        <div class="tag">Выпускной</div>
+                        <div class="tag">Свадьба</div>
+                        <div class="tag">Семья</div>
+                        <div class="tag">На печать</div>
+                        <div class="tag">Мемы</div>
+                        <div class="tag">Свадьба</div>
+                        <div class="tag">Семья</div>
+                        <div class="tag">На печать</div>
+                        <div class="tag">Мемы</div>
+                    </div>
+                </article>
+            </div>
+        </main>
+    </div>
+
+    <footer></footer>
+</body>
+
+<script>
+    function change_text(text) {
+        document.getElementById("main-header").innerHTML = text;
+    }
+</script>
+
+</html>
