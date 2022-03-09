@@ -1,0 +1,142 @@
+* {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+}
+
+body {
+    padding: 5px 25px;
+    background-color: white;
+}
+
+h1, h2 {
+    display: block;
+    width: fit-content;
+    margin: 0 auto;
+    color: white;
+    font-weight: 500;
+}
+
+.header {
+    padding: 15px;
+    background-color: #0088BB;
+    border-radius: 5px;
+}
+
+.main-content-wrapper {
+    display: grid;
+    grid-template-columns: 200px 1fr;
+}
+
+.nav {
+    padding: 80px 10px;
+    background-color: #63BBDD;
+    margin: 5px 5px 5px 0;
+    border-radius: 5px;
+    color: white;
+}
+
+.nav-point {
+    display: block;
+    margin: 20px;
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    transition-duration: 0.3s;
+    font-weight: bold;
+}
+
+.nav-point:hover {
+    cursor: pointer;
+    color: #007fad;
+}
+
+.select {
+    font-weight: bold;
+    color: #007fad;
+}
+
+.main-content {
+    padding: 50px 60px;
+    background-color: #63BBDD;
+    border-radius: 5px;
+    margin: 5px 0;
+}
+
+.photo-cards-wrapper {
+    padding: 30px;
+    background-color: #93d0e7;
+    border-radius: 5px;
+}
+
+.photo-cards-block {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.card {
+    display: grid;
+    grid-template-columns: 320px 1fr;
+    grid-template-rows: 180px 60px;
+    grid-template-areas:
+            "preview info"
+            "preview tags";
+    column-gap: 20px;
+    padding: 20px;
+    background-color: #f56464;
+    border-radius: 15px;
+}
+
+.image {
+    grid-area: preview;
+    box-sizing: border-box;
+    width: 320px;
+    height: 240px;
+    border: 7px solid transparent;
+    transition: border-bottom-color, border-left-color, border-top-color, border-right-color;
+    transition-duration: 0.5s;
+}
+
+.info {
+    grid-area: info;
+    color: white;
+}
+
+.tags-block {
+    grid-area: tags;
+    display: flex;
+    padding: 10px;
+    flex-wrap: wrap;
+    gap: 10px 20px;
+    border-radius: 5px;
+}
+
+.tag {
+    height: fit-content;
+    padding: 5px;
+    color: white;
+    background-color: #e55454;
+    border-radius: 5px;
+    transition: transform 0.4s, background-color 0.4s;
+}
+
+.tag:hover {
+    cursor: pointer;
+    background-color: #FF8500;
+    transform: scale(1.3);
+}
+
+.footer {
+    margin: 5px 0;
+    padding: 25px;
+    color: white;
+    align-content: center;
+    background-color: #0088BB;
+    border-radius: 5px;
+}
+
+.footer p {
+    margin: 0 auto;
+    width: fit-content;
+}
