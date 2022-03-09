@@ -1,0 +1,116 @@
+body {
+  background-color: #fffcfc;
+  min-height: 100vh;
+}
+
+.margin-0 {
+  margin: 0;
+}
+
+header {
+  border-bottom: 1px solid #c4c4c4;
+}
+
+.bg-blue {
+  background-color: #08b;
+  color: #fff;
+}
+
+.padding-all {
+  padding: 40px;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-capitalize {
+  text-transform: capitalize;
+}
+
+.content {
+  display: flex;
+}
+
+.padding-x {
+  padding: 0 40px;
+}
+
+aside {
+  border-right: 1px solid #c4c4c4;
+  padding: 40px 40px 40px 0;
+}
+
+nav {
+  position: sticky;
+  top: 40px;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav a {
+  display: inline-block;
+  width: 250px;
+  background-color: rgba(196, 196, 196, 0.7);
+  margin-bottom: 36px;
+  padding: 7px;
+  cursor: pointer;
+  box-sizing: border-box;
+}
+
+nav a.active,
+nav a:hover {
+  font-weight: 700;
+  border-left: 3px solid #08b;
+}
+
+main {
+  padding: 40px 0 40px 40px;
+}
+
+.images {
+  background-color: rgba(196, 196, 196, 0.2);
+}
+
+.image-article {
+  display: flex;
+  gap: 56px;
+  background-color: rgba(196, 196, 196, 0.5);
+}
+
+.image-article:not(:last-child) {
+  margin: 36px 0;
+}
+
+.image-article[hidden] {
+  display: none;
+}
+
+img {
+  object-fit: cover;
+}
+
+time {
+  font-weight: 700;
+  margin-bottom: 5px;
+  display: block;
+}
+
+.tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 18px 22px;
+}
+
+.tag {
+  background-color: #cacaca;
+  padding: 0 20px;
+}
+
+footer {
+  border-top: 1px solid #c4c4c4;
+}
