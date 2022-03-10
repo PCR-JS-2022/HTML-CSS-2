@@ -1,0 +1,48 @@
+body {
+	font-family: 'Fredoka', sans-serif;
+	font-size: 26px;
+	padding: 0;
+	margin: 0;
+}
+
+footer, header {
+	height: 100px;
+	padding-bottom: 20px;
+	border: 1px solid gainsboro;
+}
+
+.container {
+	margin: auto 5%;
+	display: grid;
+	grid-template-columns: 1fr 5fr;
+}
+
+header h1 {
+	text-align: center;
+}
+
+.navbar {
+	padding: 40px 20px;
+	border-right: 1px solid gainsboro;
+}
+
+.navbar nav {
+	top: 60px;
+	gap: 20px;
+	display: grid;
+	position: sticky;
+}
+
+.navbar nav a {
+	text-decoration: none;
+	display: block;
+	color: black;
+}
+
+.navbar nav .active {
+	font-weight: bold;
+}
+
+.navbar nav a:hover {
+	text-decoration: underline;
+}
