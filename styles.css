@@ -1,20 +1,19 @@
 body {
 	font-family: 'Fredoka', sans-serif;
-	font-size: 26px;
+	font-size: 20px;
 	padding: 0;
 	margin: 0;
 }
 
 footer, header {
-	height: 100px;
+	height: 70px;
 	padding-bottom: 20px;
 	border: 1px solid gainsboro;
 }
 
 .container {
-	margin: auto 5%;
 	display: grid;
-	grid-template-columns: 1fr 5fr;
+	grid-template-columns: 1fr 7fr;
 }
 
 header h1 {
@@ -22,13 +21,12 @@ header h1 {
 }
 
 .navbar {
-	padding: 40px 20px;
+	padding: 40px 60px;
 	border-right: 1px solid gainsboro;
 }
 
 .navbar nav {
-	top: 60px;
-	gap: 20px;
+	gap: 15px;
 	display: grid;
 	position: sticky;
 }
@@ -45,4 +43,86 @@ header h1 {
 
 .navbar nav a:hover {
 	text-decoration: underline;
+}
+
+.content {
+	display: flex;
+	max-width: 100%;
+	justify-content: center;
+	align-items: center;
+}
+
+section {
+	width: 80%;
+}
+
+.content .heading {
+	text-align: center;
+}
+
+.cards {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	width: 100%;
+}
+
+.card {
+	padding: 30px 0;
+	margin: 0 0 30px 0;
+	background: whitesmoke;
+	display: grid;
+	border-radius: 3px;
+	grid-template-columns: auto 1fr;
+	grid-template-areas: "photo metadata"
+	                     "photo metadata";
+	width: 100%;
+}
+
+.card .photo_area {
+	height: 240px;
+	width: 320px;
+	padding: 0 30px;
+	display: flex;
+	justify-content: center;
+	grid-area: photo;
+}
+
+.card .photo_area .photo {
+	border-radius: 3px;
+	max-height: 240px;
+	max-width: 320px;
+}
+
+.metadata {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	display: grid;
+	grid-area: metadata;
+	max-height: 100%;
+}
+
+.card .metadata .date, .location, .description {
+	margin-bottom: 5px;
+	word-break: normal;
+}
+
+.card .tags {
+	border-radius: 3px;
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	background: rgba(154, 159, 158, 0.20);
+	height: 50%;
+	margin-top: 50px;
+	margin-right: 30px;
+}
+
+.tags .tag {
+	text-align: center;
+	margin: 0 10px;
+	padding: 0 10px;
+	height: 30px;
+	background: rgba(154, 159, 158, 0.40);
 }
