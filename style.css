@@ -1,0 +1,77 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif;
+}
+
+.header {
+  height: 50px;
+  border-bottom: solid 1px #bbb;
+  line-height: 20px;
+}
+
+.header-content {
+  text-align: center;
+  font-weight: 400;
+  color: #000;
+  margin: 200;
+}
+
+.footer {
+  height: 70px;
+  border-top: solid 1px #bbb;
+  margin-top: auto;
+}
+
+.main {
+  display: flex;
+}
+
+.main-content {
+  text-align: center;
+  font-weight: 400;
+  margin: 40px 0;
+}
+
+.menu {
+  padding: 20px;
+  border-right: solid 1px #bbb;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.menu-tag {
+  background-color: grey;
+  width: 250px;
+  text-align: center;
+  align-self: center;
+  margin: 20px 10px;
+}
+
+.content {
+  margin: 20px;
+  background-color: #c4c4c44d;
+  width: 100%;
+}
+
+.block {
+  background: #c4c4c480;
+  margin: 20px;
+  padding: 20px;
+  display: flex;
+  column-gap: 20px;
+}
+
+.block-description {
+  margin-top: 0;
+}
+
+.tags {
+  margin-top: 50px;
+} 
+
+.img {
+  width: 320px;
+  height: 240px;
+}
