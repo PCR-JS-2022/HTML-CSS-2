@@ -16,42 +16,42 @@
         <nav class="left">
             <ul class="menu">
                 <li class="item">
-                    <button onclick="change_text('Home')">Home</button>
+                    <a href="#">Home</a>
                 </li>
                 <li class="item">
-                    <button onclick="change_text('About')">About</button>
+                    <a href="#">About</a>
                 </li>
                 <li class="item">
-                    <button onclick="change_text('Contact')">Contact</button>
+                    <a href="#">Contact</a>
                 </li>
             </ul>
         </nav>
 
         <main class="right gallery">
             <header>
-                <h1 id="main-header">Home</h1>
+                <h2 id="main-header">Home</h2>
             </header>
 
-            <div class="photo-card">
+            <article class="photo-card">
                 <figure class="left photo-preview">
-                    <img src="../assets/05a054ec6df65962c3816321bfecc5c8.jpg" />
+                    <img src="../assets/05a054ec6df65962c3816321bfecc5c8.jpg" alt="Yellow-green budgie" />
                 </figure>
 
-                <article class="right">
+                <div class="right photo-card-description">
                     <section>
-                        <h2>Date:</h2>
+                        <h3>Date:</h3>
                         <time datetime="2000-01-01 12:00">01/01/2000</time>
                     </section>
 
                     <section>
-                        <h2>Place:</h2>
+                        <h3>Place:</h3>
                         <p>Mexico</p>
                     </section>
 
                     <section>
-                        <h2>Decription:</h2>
+                        <h3>Description:</h3>
                         <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Erat id id rhoncus, vitae, etiam blandit. Aliquam morbi faucibus enim nunc. Accumsan, fringilla tincidunt nibh eget arcu odio ut tortor.
+                            The budgerigar, also known as the common parakeet or shell parakeet, is a small, long-tailed, seed-eating parrot usually nicknamed the budgie, or in American English, the parakeet. Budgies are the only species in the genus Melopsittacus. Naturally, the species is green and yellow with black, scalloped markings on the nape, back, and wings. Budgies are bred in captivity with colouring of blues, whites, yellows, greys, and even with small crests. Juveniles and chicks are monomorphic, while adults are told apart by their cere colouring, and their behaviour.
                         </p>
                     </section>
 
@@ -69,27 +69,27 @@
                         <div class="tag">На печать</div>
                         <div class="tag">Мемы</div>
                     </div>
-                </article>
-            </div>
+                </div>
+            </article>
 
-            <div class="photo-card">
+            <article class="photo-card">
                 <figure class="left photo-preview">
-                    <img src="../assets/20210923_gaf_u39_666-pic_32ratio_900x600-900x600-87285.jpg" />
+                    <img src="../assets/20210923_gaf_u39_666-pic_32ratio_900x600-900x600-87285.jpg"  alt="Woman with parrots"/>
                 </figure>
 
-                <article class="right">
+                <div class="right photo-card-description">
                     <section>
-                        <h2>Date:</h2>
+                        <h3>Date:</h3>
                         <time datetime="2000-01-01 12:00">01/01/2000</time>
                     </section>
 
                     <section>
-                        <h2>Place:</h2>
+                        <h3>Place:</h3>
                         <p>Mexico</p>
                     </section>
 
                     <section>
-                        <h2>Decription:</h2>
+                        <h3>Description:</h3>
                         <p>
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Erat id id rhoncus, vitae, etiam blandit. Aliquam morbi faucibus enim nunc. Accumsan, fringilla tincidunt nibh eget arcu odio ut tortor. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                             Erat id id rhoncus, vitae, etiam blandit.
@@ -110,27 +110,27 @@
                         <div class="tag">На печать</div>
                         <div class="tag">Мемы</div>
                     </div>
-                </article>
-            </div>
+                </div>
+            </article>
 
-            <div class="photo-card">
+            <article class="photo-card">
                 <figure class="left photo-preview">
-                    <img src="../assets/korella.jpg" />
+                    <img src="../assets/korella.jpg" alt="Cockatiel" />
                 </figure>
 
-                <article class="right">
+                <div class="right photo-card-description">
                     <section>
-                        <h2>Date:</h2>
+                        <h3>Date:</h3>
                         <time datetime="2000-01-01 12:00">01/01/2000</time>
                     </section>
 
                     <section>
-                        <h2>Place:</h2>
+                        <h3>Place:</h3>
                         <p>Mexico</p>
                     </section>
 
                     <section>
-                        <h2>Decription:</h2>
+                        <h3>Description:</h3>
                         <p>
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Erat id id rhoncus, vitae, etiam blandit. Aliquam morbi faucibus enim nunc. Accumsan, fringilla tincidunt nibh eget arcu odio ut tortor.
                         </p>
@@ -150,18 +150,12 @@
                         <div class="tag">На печать</div>
                         <div class="tag">Мемы</div>
                     </div>
-                </article>
-            </div>
+                </div>
+            </article>
         </main>
     </div>
 
     <footer></footer>
 </body>
-
-<script>
-    function change_text(text) {
-        document.getElementById("main-header").innerHTML = text;
-    }
-</script>
 
 </html>
