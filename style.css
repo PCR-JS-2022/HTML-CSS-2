@@ -1,0 +1,142 @@
+:root {
+    --border: 2px solid #C4C4C4;
+    --main-bg-color: #C4C4C44D;
+    --card-bg-color: #C4C4C480;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto';
+}
+
+header {
+    border-bottom: var(--border);
+    text-align: center;
+    padding: 15px 0px;
+    font-size: 18px;
+    line-height: 28px;
+    width: 100%;
+}
+
+footer {
+    border-top: var(--border);
+}
+
+.container {
+    display: flex;
+}
+
+
+
+.menu-list {
+    list-style: none;
+    padding: 30px;
+    height: 100%;
+}
+
+.menu-list li {
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.menu-list li {
+    font-size: 18px;
+    cursor: pointer;
+    margin: 10px 0;
+}
+
+.menu {
+    border-right: var(--border);
+}
+
+main {
+    background-color: var(--main-bg-color);
+    min-height: 500px;
+    margin: 17px 14px 18px 21px;
+    width: 100%;
+    position: relative;
+}
+
+.content-heading {
+    text-align: center;
+    margin: 20px 0px 25px 0px;
+}
+
+.cards {
+    width: 100%;
+    position: relative;
+}
+
+.card {
+    background-color: var(--card-bg-color);
+    display: flex;
+    padding: 25px;
+    margin: 0 25px;
+    max-width: 100%;
+}
+
+
+.card:not(:first-of-type) {
+    margin-top: 18px;
+}
+
+.card:last-of-type {
+    margin-bottom: 18px;
+}
+
+.card img {
+    max-width: 320px;
+    max-height: 240px;
+}
+
+.card-info {
+    margin-left: 25px;
+    font-size: 18px;
+    line-height: 30px;
+}
+
+.card-tags{
+    margin-top: 20px;
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+
+@media screen and (max-width: 960px) {
+    .card {
+        flex-direction: column;
+    }
+
+    .card-info {
+        margin-left: 0;
+        margin-top: 20px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .container {
+        flex-wrap: wrap;
+    }
+    .menu {
+        border: none;
+        width: 100%;
+    }
+
+    .menu-list {
+        justify-content: center;
+        display: flex;
+        gap: 15px;
+    }
+}
+
+.card-description {
+    display: block;
+    text-overflow: clip;
+    max-width: 100%;
+}
+
+.card-description p {
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
