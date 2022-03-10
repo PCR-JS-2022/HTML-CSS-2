@@ -39,7 +39,6 @@
 }
 
 .description-item {
-    background-color: #cacaca;
     margin: 20px;
 }
 
@@ -59,6 +58,7 @@
 
 .tag {
     background-color: darkgrey;
+    padding: 5px;
 }
 
 .pictures img {
@@ -103,4 +103,9 @@
 
   .main {
       padding-left: 200px;
+  }
+
+  .second-header {
+    display: flex;
+    justify-content: center;
   }
