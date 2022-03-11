@@ -63,7 +63,8 @@ nav ul li a {
     width: 80%;
     margin: 70px auto;
     padding: 30px;
-    position: relative;
+    display: flex;
+    justify-content: space-between;
 }
 
 .photo-container__item_preview {
@@ -73,12 +74,6 @@ nav ul li a {
     background-color: rgba(182, 182, 182);
 }
 
-.photo-container__item_info {
-    float: right;
-    position: absolute;
-    top: 20px;
-    right: 250px;
-}
 
 .photo-container__item_info p {
     background-color: rgba(182, 182, 182);
