@@ -92,6 +92,7 @@ footer {
     vertical-align: top;
     grid-area: info;
     color: white;
+    line-height: 1.5;
 }
 
 .info-block {
@@ -109,7 +110,7 @@ footer {
 
 .tag {
     margin: 0px 5px 0px 0px;
-    padding: 1px;
+    padding: 5px;
     color: white;
     border: 1px solid #ff5500;
     border-radius: 11%;
@@ -121,4 +122,8 @@ header, footer {
 
 main{
     background-color: #404040;
+}
+
+div[class="info"] > span {
+    display: block;
 }
