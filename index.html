@@ -8,7 +8,7 @@
     <title>HTML-CSS-2</title>
 </head>
 <body>
-    <header>
+    <header class="page-header">
         <h1>Заголовок</h1>
     </header>
     <div class="container">
@@ -20,105 +20,117 @@
             </ul>
         </nav>
         <main class="content">
-            <h2 class="content-heading">Заголовок</h2>
-            <div class="cards">
+            <header>
+                <h2 class="content-heading">Заголовок</h2>
+            </header>
+            <section class="cards">
                 <article class="card">
-                    <img alt="Cheloniidae" src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Cheloniidae2005.jpg/413px-Cheloniidae2005.jpg">
-                    <div class="card-info">
-                        <div class="card-description">
-                            <p>
-                                Морские черепахи (лат. Cheloniidae) — семейство черепах из надсемейства Chelonioidea.
-                                Объединяет крупных морских и океанических черепах, обладающих обтекаемым сердцевидным 
-                                или овальным панцирем, покрытым роговыми щитками, и невтягивающимися конечностями-ластами. 
-                                Большая голова не убирается под панцирь.
-                            </p>
-                        </div>
-                        <div class="card-tags">
-                            <p>Животные</p>
-                            <p>Морские</p>
-                            <p>Пресмыкающиеся</p>
-                        </div>
-                    </div>
+                    <figure>
+                        <img alt="Cheloniidae" src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Cheloniidae2005.jpg/413px-Cheloniidae2005.jpg">
+                        <figcaption class="card-info">
+                            <div class="card-description">
+                                <p>
+                                    Морские черепахи (лат. Cheloniidae) — семейство черепах из надсемейства Chelonioidea.
+                                    Объединяет крупных морских и океанических черепах, обладающих обтекаемым сердцевидным 
+                                    или овальным панцирем, покрытым роговыми щитками, и невтягивающимися конечностями-ластами. 
+                                    Большая голова не убирается под панцирь.
+                                </p>
+                            </div>
+                            <aside class="card-tags">
+                                <p>Животные</p>
+                                <p>Морские</p>
+                                <p>Пресмыкающиеся</p>
+                            </aside>
+                        </figcaption>
+                    </figure>
                 </article>
                 <article class="card">
-                    <img alt="Arctic fox" src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Iceland-1979445_%28cropped_2%29.jpg/413px-Iceland-1979445_%28cropped_2%29.jpg">
-                    <div class="card-info">
-                        <div class="card-description">
-                            <p>
-                                Обыкновенный песе́ц, или полярная лисица, реже арктическая лиса 
-                                (лат. Vulpes lagopus, [syn. Alopex lagopus] от др.-греч. ἀλώπηξ «лисица» и λᾰγώπους 
-                                «зайценогая») — вид хищных млекопитающих семейства псовых, обычно относимый 
-                                к роду лисиц (иногда выделяется в отдельный род Alopex). 
-                                Небольшое хищное животное, напоминающее лисицу. 
-                                Длина тела 50—75 см, хвоста — 25—30 см, высота в холке — 20—30 см. 
-                                Средняя масса тела самца — 3,5 кг, максимальная — до 9 кг, самки — 3 кг. 
-                                В отличие от лисицы, тело у песца приземистое, морда укороченная;
-                                уши закруглены, слабо выступают из зимней шерсти (это предохраняет их от обморожения). 
-                                Название вида — lagopus — в переводе с греч. «заячья лапа»: 
-                                подошвы лап у песцов покрыты жёсткими волосами.
-                            </p>
-                        </div>
-                        <div class="card-tags">
-                            <p>Животные</p>
-                            <p>Арктика</p>
-                            <p>Лисица</p>
-                            <p>Хищные</p>
-                            <p>Млекопитающие</p>
-                            <p>Хордовые</p>
-                        </div>
-                    </div>
+                    <figure>
+                        <img alt="Arctic fox" src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Iceland-1979445_%28cropped_2%29.jpg/413px-Iceland-1979445_%28cropped_2%29.jpg">
+                        <figcaption class="card-info">
+                            <div class="card-description">
+                                <p>
+                                    Обыкновенный песе́ц, или полярная лисица, реже арктическая лиса 
+                                    (лат. Vulpes lagopus, [syn. Alopex lagopus] от др.-греч. ἀλώπηξ «лисица» и λᾰγώπους 
+                                    «зайценогая») — вид хищных млекопитающих семейства псовых, обычно относимый 
+                                    к роду лисиц (иногда выделяется в отдельный род Alopex). 
+                                    Небольшое хищное животное, напоминающее лисицу. 
+                                    Длина тела 50—75 см, хвоста — 25—30 см, высота в холке — 20—30 см. 
+                                    Средняя масса тела самца — 3,5 кг, максимальная — до 9 кг, самки — 3 кг. 
+                                    В отличие от лисицы, тело у песца приземистое, морда укороченная;
+                                    уши закруглены, слабо выступают из зимней шерсти (это предохраняет их от обморожения). 
+                                    Название вида — lagopus — в переводе с греч. «заячья лапа»: 
+                                    подошвы лап у песцов покрыты жёсткими волосами.
+                                </p>
+                            </div>
+                            <aside class="card-tags">
+                                <p>Животные</p>
+                                <p>Арктика</p>
+                                <p>Лисица</p>
+                                <p>Хищные</p>
+                                <p>Млекопитающие</p>
+                                <p>Хордовые</p>
+                            </aside>
+                        </figcaption>
+                    </figure>
+
                 </article>
                 <article class="card">
-                    <img alt="Koala" src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/25/Friendly_Female_Koala.JPG/360px-Friendly_Female_Koala.JPG">
-                    <div class="card-info">
-                        <div class="card-description">
-                            <p>
-                                Коа́ла (лат. Phascolarctos cinereus) — вид сумчатых, обитающий в Австралии.
-                                 Единственный современный представитель семейства коаловых (Phascolarctidae)
-                                  из отряда двурезцовых сумчатых (Diprotodontia).
-                            </p>
-                            <p>
-                                Слово коала (англ. koala) происходит от даракского слова gulawan 
-                                или его укороченной формы gula. Первоначальную транскрипцию cullawine
-                                 постепенно вытеснил вариант koola. Хотя гласная /u/ 
-                                 была первоначально написана в английской орфографии 
-                                 как «оо», она, возможно по ошибке, была изменена на «oa».
-                                  Ошибочно считалось, что это слово означало «не пьёт».
-                            </p>
-                        </div>
-                        <div class="card-tags">
-                            <p>Животные</p>
-                            <p>Эвкалипт</p>
-                            <p>Млекопитающие</p>
-                        </div>
-                    </div>
+                    <figure>
+                        <img alt="Koala" src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/25/Friendly_Female_Koala.JPG/360px-Friendly_Female_Koala.JPG">
+                        <figcaption class="card-info">
+                            <div class="card-description">
+                                <p>
+                                    Коа́ла (лат. Phascolarctos cinereus) — вид сумчатых, обитающий в Австралии.
+                                     Единственный современный представитель семейства коаловых (Phascolarctidae)
+                                      из отряда двурезцовых сумчатых (Diprotodontia).
+                                </p>
+                                <p>
+                                    Слово коала (англ. koala) происходит от даракского слова gulawan 
+                                    или его укороченной формы gula. Первоначальную транскрипцию cullawine
+                                     постепенно вытеснил вариант koola. Хотя гласная /u/ 
+                                     была первоначально написана в английской орфографии 
+                                     как «оо», она, возможно по ошибке, была изменена на «oa».
+                                      Ошибочно считалось, что это слово означало «не пьёт».
+                                </p>
+                            </div>
+                            <aside class="card-tags">
+                                <p>Животные</p>
+                                <p>Эвкалипт</p>
+                                <p>Млекопитающие</p>
+                            </aside>
+                        </figcaption>
+                    </figure>
                 </article>
                 <article class="card">
-                    <img alt="Golden retriever" src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/Golden_retriever_stehfoto.jpg/411px-Golden_retriever_stehfoto.jpg">
-                    <div class="card-info">
-                        <div class="card-description">
-                            <p>
-                                Золоти́стый ретри́вер, или го́лден-ретри́вер (англ. golden retriever),
-                                 — порода охотничьих собак, выведенная в Великобритании в XIX веке.
-                            </p>
-                            <p>
-                                Золотистый ретривер был выведен в Англии как универсальная охотничья 
-                                собака для подачи битой дичи. Имеет одних и тех же предков с лабрадором. 
-                                По одной из версий, не имеющей, к слову, никаких документальных подтверждений,
-                                 появление породы связано с именем лорда Твидмаута, сэра Дадли Маджорибенкса.
-                                  В 1858 году он побывал в Брайтоне на представлении заезжего цирка, 
-                                  где в одном из номеров увидел собак, поразивших его своим интеллектом
-                                  . Он был настолько покорён, что сразу же приобрёл в цирке восемь собак.
-                            </p>
-                        </div>
-                        <div class="card-tags">
-                            <p>Животные</p>
-                            <p>Великобритания</p>
-                            <p>Собаки</p>
-                        </div>
-                    </div>
+                    <figure>
+                        <img alt="Golden retriever" src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/Golden_retriever_stehfoto.jpg/411px-Golden_retriever_stehfoto.jpg">
+                        <figcaption class="card-info">
+                            <div class="card-description">
+                                <p>
+                                    Золоти́стый ретри́вер, или го́лден-ретри́вер (англ. golden retriever),
+                                     — порода охотничьих собак, выведенная в Великобритании в XIX веке.
+                                </p>
+                                <p>
+                                    Золотистый ретривер был выведен в Англии как универсальная охотничья 
+                                    собака для подачи битой дичи. Имеет одних и тех же предков с лабрадором. 
+                                    По одной из версий, не имеющей, к слову, никаких документальных подтверждений,
+                                     появление породы связано с именем лорда Твидмаута, сэра Дадли Маджорибенкса.
+                                      В 1858 году он побывал в Брайтоне на представлении заезжего цирка, 
+                                      где в одном из номеров увидел собак, поразивших его своим интеллектом
+                                      . Он был настолько покорён, что сразу же приобрёл в цирке восемь собак.
+                                </p>
+                            </div>
+                            <aside class="card-tags">
+                                <p>Животные</p>
+                                <p>Великобритания</p>
+                                <p>Собаки</p>
+                            </aside>
+                        </figcaption>
+                    </figure>
+
                 </article>
-            </div>
+            </section>
         </main>
     </div>
     <footer></footer>
