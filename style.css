@@ -64,7 +64,6 @@ nav ul li a {
     margin: 70px auto;
     padding: 30px;
     display: flex;
-    justify-content: space-between;
 }
 
 .photo-container__item_preview {
@@ -74,6 +73,9 @@ nav ul li a {
     background-color: rgba(182, 182, 182);
 }
 
+.photo-container__item_info {
+    margin-left: 20px;
+}
 
 .photo-container__item_info p {
     background-color: rgba(182, 182, 182);
