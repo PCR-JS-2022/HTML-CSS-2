@@ -1,0 +1,12 @@
+.container-tags {
+    display: inline-flex;
+    background-color: darkgray;
+    margin: 5px;
+    padding: 5px;
+    width: auto;
+}
+
+.tags {
+    margin: 2px;
+    background-color: beige;
+}

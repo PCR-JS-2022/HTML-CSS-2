@@ -1,0 +1,12 @@
+section {
+    margin: 10px;
+    padding: 10px;
+    background-color: #FDD9B5;
+}
+
+.section-text {
+    padding: 10px;
+    background-color: #78DBE2;
+    width: auto;
+    text-align: center;
+}

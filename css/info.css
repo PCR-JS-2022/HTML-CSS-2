@@ -1,0 +1,19 @@
+.container-info {
+    background-color: chocolate;
+    height: 150px;
+    margin: 5px;
+    padding: 5px;
+    width: auto;
+}
+
+.container-data {
+    background-color: beige;
+}
+
+.container-location {
+    background-color: aqua;
+}
+
+.container-decs {
+    background-color: darkgray;
+}
