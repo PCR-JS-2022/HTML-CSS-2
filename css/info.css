@@ -4,16 +4,26 @@
     margin: 5px;
     padding: 5px;
     width: auto;
+    display: block;
 }
 
-.container-data {
+time {
     background-color: beige;
+    margin: 5px;
+    padding: 5px;
+    display: block;
 }
 
-.container-location {
+span {
     background-color: aqua;
+    margin: 5px;
+    padding: 5px;
+    display: block;
 }
 
-.container-decs {
+h3 {
     background-color: darkgray;
+    margin: 5px;
+    padding: 5px;
+    display: block;
 }
