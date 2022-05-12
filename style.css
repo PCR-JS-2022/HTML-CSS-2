@@ -1,0 +1,86 @@
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    min-width: 400px;
+    padding: 0;
+    margin: 0;
+    background-color: white;
+    font-family: "SF Pro Display", sans-serif;
+}
+
+.header {
+    background-color: #0088BB;
+    text-align: center;
+    width: 100%;
+    padding: 10px;
+    margin: 0;
+    color: white;
+    box-sizing: border-box;
+    font-weight: 500;
+}
+
+main {
+    flex: 1 1 auto;
+    display: flex;
+}
+
+.navbar {
+    flex-shrink: 0;
+    width: 200px;
+    padding: 34px;
+    gap: 20px;
+    background-color: #e5e5e5;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.gallery {
+    padding: 20px;
+}
+
+.cards{}
+
+.card{
+    display: flex;
+    gap: 10px;
+}
+
+.card-img {
+    flex: 0 0 auto;
+    width: 320px;
+    height: 240px;
+    margin: 20px;
+}
+
+.tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.tag{
+    min-width: 100px;
+    border: 3px solid #0088BB;
+    height: 20px;
+    text-align: center;
+}
+
+
+
+
+
+.footer {
+    margin: 0;
+    background-color: #0088BB;
+    text-align: center;
+    width: 100%;
+    padding: 10px;
+    color: white;
+    box-sizing: border-box;
+}
+
+.footer p {
+    margin: 0;
+}
